@@ -5,6 +5,7 @@ public class Dropper : MonoBehaviour
     [SerializeField]float droping_time=3f;
     MeshRenderer mr;
     Rigidbody rd;
+//this is start function
     void Start()
     {
         mr = GetComponent<MeshRenderer>();
